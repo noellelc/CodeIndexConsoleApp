@@ -27,3 +27,4 @@ jobs:
         languages: csharp
         environment: development
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        nugetFeed: 'https://pkgs.dev.azure.com/azure-public/vside/_packaging/vs-buildservices@Local/nuget/v3/index.json'
