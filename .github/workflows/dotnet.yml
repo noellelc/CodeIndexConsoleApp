@@ -25,4 +25,5 @@ jobs:
       uses: microsoft/RichCodeNavIndexer@v0.1
       with:
         languages: csharp
+        environment: development
         repo-token: ${{ secrets.GITHUB_TOKEN }}
