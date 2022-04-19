@@ -71,7 +71,7 @@ namespace TesterConsoleApp
             string fullUrl = "https://localhost:44303/v0.1/Diagnostics/documentSummary/7ae08b42ad8cf1b1116e7c147d0af24de9efb2c0063609a9a4369ad5d7ef8a/8d90b5ee22c49ab";
             var request = new HttpRequestMessage(HttpMethod.Get, fullUrl);
             request.Headers.Add("User-Agent", "noecald");
-            var token = "mytoken";
+            var token = "mytoken"; // replace with token
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var webClient = new WebClient();
             webClient.DownloadFile(fullUrl, "downloadhere");
