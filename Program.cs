@@ -68,7 +68,7 @@ namespace TesterConsoleApp
 
         static void DownloadFile()
         {
-            string fullUrl = "https://localhost:44303/v0.1/Diagnostics/documentSummary/7ae08b42ad8cf1b1116e7c147d0af24de9efb2c0063609a9a4369ad5d7ef8a/8d90b5ee22c49ab";
+            string fullUrl = "todo: construct uri";
             var request = new HttpRequestMessage(HttpMethod.Get, fullUrl);
             request.Headers.Add("User-Agent", "noecald");
             var token = "mytoken"; // replace with token
