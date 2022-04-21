@@ -49,7 +49,7 @@ namespace TesterConsoleApp
 
                         try
                         {
-                            var range = JsonSerializer.Deserialize<IndexFormatRange>(e.Data);
+                            var range = JsonSerializer.Deserialize<IndexFormatRange>(e.Data); // TODO
                             RelevantRanges.Add(range);
                         }
                         catch (Exception ex)
