@@ -10,7 +10,7 @@ namespace TesterConsoleApp
     public class CppTokenProvider
     {
         public string InputPath { get; set; }
-        public string IndexerPath { get; set; } = "cppindexer.exe"; // tool from Kyle
+        public string IndexerPath { get; set; } = "cppindexer.exe"; // add tool
 
         public ICollection<IndexFormatRange> RelevantRanges = new List<IndexFormatRange>();
 
